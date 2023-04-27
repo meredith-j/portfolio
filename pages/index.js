@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-        <h1 className={styles.home_header}>yay!</h1>
+        <h1 className={styles.header}>FUCKING LATO!</h1>
       </main>
     </>
   )
