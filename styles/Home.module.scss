@@ -4,8 +4,10 @@
 @import "./partials/fonts";
 
   .home_header {
-    color: yellow;
+    color: green;
     font-size: 5rem;
+    margin: 0;
+    padding: 0;
 
     @include tablet {
       color: blue;
