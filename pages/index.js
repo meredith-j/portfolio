@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.scss'
+import styles from '../styles/Home.module.scss'
 
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-        <h1 className={styles.header}>FUCKING LATO!</h1>
+        <h1 className={styles.header}>hello, lato :)</h1>
       </main>
     </>
   )
