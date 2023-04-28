@@ -10,6 +10,8 @@
 
 🤘🏻 Animations (threeJS)
 
+🤘🏻 Light/Dark Mode
+
 🤘🏻 Links to other live projects
 
 

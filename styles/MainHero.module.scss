@@ -1,7 +1,7 @@
-@import "./partials/mixins";
-@import "./partials/breakpoints";
-@import "./partials/colours";
-@import "./partials/fonts";
+@import "../styles/partials/mixins";
+@import "../styles/partials/breakpoints";
+@import "../styles/partials/colours";
+@import "../styles/partials/fonts";
 
   .hero_header {
     text-shadow: 1rem 1rem 0 transparent, 0 0 0.5em white;
