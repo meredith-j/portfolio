@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import MainHero from '@/components/MainHero'
+import Bio from '/components/bio'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <div>
         <MainHero />
+        <Bio />
       </div>
     </>
   )

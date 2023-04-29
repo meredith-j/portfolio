@@ -12,8 +12,10 @@ max-width: 80rem;
   }
 
   &_gradient {
-    text-shadow: 1rem 1rem 0 transparent, 0 0 0.5em white;
+    // gradient text colour
     background: -webkit-linear-gradient(#833ab4, #fd1d1d, #fcb045);
+    // shadow behind text
+    text-shadow: 1rem 1rem 0 transparent, 0 0 0.5em darkgray;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     // the commented out code is a white outline
