@@ -20,43 +20,58 @@
         @include tablet {
             display: flex;
             flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
         }
     }
 
     &_photoContainer {
         width: 70%;
         height: 20rem;
-        border-radius: 12rem;
+        border-radius: 4rem;
 
         @include tablet {
-        width: 35%;
+        width: 25rem;
         padding: 0 4rem 0 0;
+        border-radius: 14rem;
         }
     }
 
     &_photo {
-        max-width: 100%;
-        height: auto;
-        object-fit: contain;
-        border-radius: 12rem;
+        max-width: 40%;
+        height: 20rem;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 9rem;
+
+        @include tablet {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 14rem;
+        }
     }
         
     &_content {
-
+        padding: 1rem 0 0 0;
 
         @include tablet {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
         }
     }
 
     &_paragraph {
+        padding: 1rem 0;
         color: white;
         font-weight: 400;
-        font-size: 1.5rem;
-        padding: 2rem 0;
+        font-size: 1.25rem;
+
+        @include tablet {
+            font-size: 1.5rem;
         }
+    }
 
     &_header {
         color: white;
