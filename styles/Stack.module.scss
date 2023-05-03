@@ -1,0 +1,12 @@
+@import "./partials/mixins";
+@import "./partials/breakpoints";
+@import "./partials/colours";
+@import "./partials/fonts";
+
+.stack {
+    max-width: 80rem;
+    
+    &_header {
+        color: white;
+    }
+}
