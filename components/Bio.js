@@ -12,7 +12,7 @@ const Bio = () => {
                     priority
                     src={profileImg}
                     className={styles.bio_photo}
-                    alt="Meredith has curly, shoulder-length hair and bangs framing her face as she looks at the camera and gives a small, closed mouth smile"
+                    alt="Meredith has curly, shoulder-length hair and bangs framing their face as they look at the camera and gives a small, closed mouth smile"
                     />
                 </div>
                 <div className={styles.bio_content}>
