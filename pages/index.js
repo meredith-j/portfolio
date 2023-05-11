@@ -13,10 +13,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <MainHero />
-        <Bio />
-        <Stack />
-        <Projects />
+        <div className='center'>
+          <div className='max-width'>
+          <MainHero />
+          <Bio />
+          <Stack />
+          <Projects />
+          </div>
+        </div>
     </>
   )
 }

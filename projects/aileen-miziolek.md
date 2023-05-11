@@ -2,7 +2,7 @@
 title: ''
 date: ''
 image: ''
+tech-stack: ''
 github: ''
-back-end: ''
 live-url: ''
 ---
