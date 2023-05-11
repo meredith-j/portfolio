@@ -16,7 +16,7 @@ max-width: 80rem;
     background: -webkit-linear-gradient(#833ab4, #fd1d1d, #fcb045);
     // shadow behind text
     text-shadow: 1rem 1rem 0 transparent, 0 0 0.5em darkblue;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     // the commented out code is a navy outline (to match the shaddow)
     // -webkit-text-stroke: 0.05rem navy;
