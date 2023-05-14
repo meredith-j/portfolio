@@ -1,8 +1,8 @@
 ---
-title: ''
-date: ''
-image: ''
-github: ''
-tech-stack: ''
-live-url: ''
+title: ""
+date: ""
+image: ""
+github: ""
+techStack: ""
+liveUrl: ""
 ---

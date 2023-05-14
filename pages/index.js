@@ -3,8 +3,20 @@ import MainHero from '@/components/MainHero'
 import Bio from '/components/bio'
 import Stack from '@/components/Stack'
 import Projects from '@/components/Projects'
+import { getSortedProjectsData } from '@/lib/projects'
 
-export default function Home() {
+export async function getStaticProps() {
+  const allProjectsData = getSortedProjectsData();
+  return {
+    props: {
+      allProjectsData,
+    },
+  };
+}
+
+
+
+export default function Home({ allProjectsData }) {
   return (
     <>
       <Head>
@@ -18,7 +30,7 @@ export default function Home() {
           <MainHero />
           <Bio />
           <Stack />
-          <Projects />
+          <Projects allProjectsData={allProjectsData} />
           </div>
         </div>
     </>
