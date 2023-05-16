@@ -29,8 +29,8 @@ export default function Home({ allProjectsData }) {
           <div className='max-width'>
           <MainHero />
           <Bio />
-          <Stack />
           <Projects allProjectsData={allProjectsData} />
+          <Stack />
           </div>
         </div>
     </>

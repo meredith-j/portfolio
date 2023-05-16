@@ -15,12 +15,41 @@
     }
 
     &_header {
-        color: white;
+        color: lightgray;
         padding: 0 1rem;
         font-size: 1.5rem;
     }
 
+    &_all {
+        display: flex;
+        flex-direction: column;
+
+        @include tablet {
+            flex-direction: row;
+        }
+    }
+
     &_one {
-        color: white;
+        color: lightgray;
+        padding: 1rem;
+        margin: 1rem 0;
+        border: 0.075rem solid #DC0BAE;
+        border-radius: 1rem;
+    }
+
+    &_title {
+        font-weight: 100;
+    }    
+    
+    &_image {
+        width: 100%;
+        height: auto;
+    }
+
+    &_links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
     }
 }

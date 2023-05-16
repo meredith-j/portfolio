@@ -5,4 +5,5 @@ image: ""
 github: ""
 techStack: ""
 liveUrl: ""
+details: ""
 ---
