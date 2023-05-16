@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import MainHero from '@/components/MainHero'
-import Bio from '/components/bio'
+import Bio from '@/components/Bio'
 import Stack from '@/components/Stack'
 import Projects from '@/components/Projects'
 import { getSortedProjectsData } from '@/lib/projects'
