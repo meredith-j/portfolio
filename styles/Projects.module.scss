@@ -1,0 +1,97 @@
+@import "../styles/partials/mixins";
+@import "../styles/partials/breakpoints";
+@import "../styles/partials/colours";
+@import "../styles/partials/fonts";
+
+.projects {
+    padding: 1rem 2rem;
+
+    @include tablet {
+        padding: 1rem 2rem;
+    }
+
+    @include desktop {
+        padding: 1rem 13rem;
+    }
+
+    &_header {
+        color: lightgray;
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    &_all {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        @include tablet {
+            flex-direction: row;
+        }
+    }
+
+    &_one {
+        color: lightgray;
+        padding: 1rem;
+        border: 0.075rem solid #DC0BAE;
+        border-radius: 1rem;
+    }
+
+    &_title {
+        font-weight: 400;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0 0 1rem 0;
+    }    
+    
+    &_image {
+        width: 100%;
+        height: auto;
+        padding: 0 0 1.5rem 0;
+    }
+
+    &_links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0 0 1rem 0;
+    }
+
+    &_githublink {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    &_github {
+        width: 3rem;
+        height: auto;
+    }
+
+    &_githubtext {
+        width: 4rem;
+        color: white;
+    }
+
+    &_live {
+        width: 4rem;
+        text-align: center;
+        color: lightgray;
+    }
+
+    &_link {
+        text-decoration: none;
+    }
+
+    &_description {
+        padding: 0 0 1rem 0;
+    }
+
+    &_hide {
+        display: none;
+    }
+
+}
