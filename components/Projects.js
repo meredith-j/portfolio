@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from '../styles/Projects.module.scss'
-import githubLogo from '../public/icons/github.svg'
+import githubLogo from '../public/icons/githubprojects.svg'
+import Image from 'next/image'
 
 const Projects = ({ allProjectsData }) => {
     return (
@@ -9,7 +10,7 @@ const Projects = ({ allProjectsData }) => {
       <div className={styles.projects_all}>
       {allProjectsData.map(({ id, title, image, github, techStack, liveUrl, details }) => (
         <div className={styles.projects_one} key={id}>
-          <h4 className={styles.project_title}>{title}</h4>
+          <h4 className={styles.projects_title}>{title}</h4>
           <img
               src={image}
               className={styles.projects_image}
@@ -17,20 +18,25 @@ const Projects = ({ allProjectsData }) => {
               />
           <div className={styles.projects_links}>
             <Link
-              href={github}>
-              <img
+              href={github}
+              className={`${styles.projects_githublink} ${styles.projects_link}`}>
+              <Image
                 src={githubLogo}
+                alt="Github link to code"
                 className={styles.projects_github}
                 />
+              <p className={styles.projects_githubtext}>See the code!</p>
             </Link>
-            <Link
-              href={liveUrl}>
+            {/* note: none of these are live except the portfolio */}
+            {/* <Link
+              href={liveUrl}
+              className={styles.projects_link}>
               <p className={styles.projects_live}>Visit the Site!</p>
-            </Link>
+            </Link> */}
           </div>
           <div className={styles.projects_info}>
-            <p className={styles.projects_stack}>{techStack}</p>
             <p className={styles.projects_description}>{details}</p>
+            <p className={styles.projects_techtitle}>Tech Stack: <span className={styles.projects_stack}>{techStack}</span></p>
           </div>
         </div>
       ))}

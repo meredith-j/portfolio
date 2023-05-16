@@ -1,7 +1,7 @@
 ---
 title: "Grow a Pear"
 date: "2020-01-01"
-image: ""
+image: "/images/growapear-desktop.png"
 techStack: "HTML, CSS, JavaScript, React, REST APIs, Node, Express, Knex, MySQL"
 github: "https://github.com/meredith-j?tab=repositories&q=grow-a-pear&type=&language=&sort="
 liveUrl: ""
