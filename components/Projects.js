@@ -21,6 +21,7 @@ const Projects = ({ allProjectsData }) => {
               href={github}
               className={`${styles.projects_githublink} ${styles.projects_link}`}>
               <Image
+                priority
                 src={githubLogo}
                 alt="Github link to code"
                 className={styles.projects_github}

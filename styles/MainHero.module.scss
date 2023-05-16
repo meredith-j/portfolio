@@ -4,10 +4,10 @@
 @import "../styles/partials/fonts";
 
 .hero {
-padding: 3rem 2rem;
+padding: 2.5rem 2rem;
 
   @include tablet {
-    padding: 4rem;
+    padding: 3rem;
   }
 
   &_gradient {
@@ -22,24 +22,25 @@ padding: 3rem 2rem;
   }
 
   &_header {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: 900;
     padding: 1.5rem 0;
 
       @include tablet {
       font-size: 9.5rem;
-      padding: 2rem 0;
+      padding: 1rem 0;
       }
 
       @include desktop {
         font-size: 12rem;
+        padding: 0 0 1rem 0;
       }
   }
 
   &_subheader {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 400;
-    padding: 6rem 0 3rem 0;
+    padding: 6rem 0 0 0;
 
       @include tablet {
         font-size: 3rem;
