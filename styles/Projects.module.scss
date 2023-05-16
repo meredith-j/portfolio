@@ -35,6 +35,10 @@
         padding: 1rem;
         border: 0.075rem solid #DC0BAE;
         border-radius: 1rem;
+
+        @include tablet {
+            width: 33%;
+        }
     }
 
     &_title {

@@ -23,7 +23,7 @@ export default function Home({ allProjectsData }) {
         <title>Meredith Jonatan | Software Engineer</title>
         <meta name="description" content="Welcome to my portfolio!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/meredith-photo.jpg" />
       </Head>
         <div className='center'>
           <div className='max-width'>
