@@ -5,7 +5,7 @@
 
 
 .bio {
-    padding: 2rem 2rem;
+    padding: 1rem 2rem 2rem 2rem;
 
     @include tablet {
         padding: 1rem 4rem 10rem 4rem;
@@ -23,6 +23,12 @@
             justify-content: center;
             // align-items: flex-start;
         }
+    }
+
+    &_sources {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     &_photoContainer {
@@ -48,6 +54,33 @@
             object-fit: cover;
             border-radius: 14rem;
         }
+    }
+
+    &_links_tablet {
+        display: none;
+
+        @include tablet {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0 0 0 1.5rem;
+        }
+    }
+
+    &_links_mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+
+        @include tablet {
+            display: none;
+        }
+    }
+
+    &_link {
+        width: 6rem;
+        height: 4rem;
     }
         
     &_content {
