@@ -79,8 +79,8 @@
     }
 
     &_link {
-        width: 6rem;
-        height: 4rem;
+        width: auto;
+        height: 100%;
     }
         
     &_content {
@@ -95,7 +95,7 @@
 
     &_paragraph {
         padding: 1rem 0;
-        color: lightgray;
+        color: $main-text;
         font-weight: 400;
         font-size: 1.25rem;
 
@@ -105,6 +105,6 @@
     }
 
     &_header {
-        color: lightgray;
+        color: $main-text;
     }
 }
