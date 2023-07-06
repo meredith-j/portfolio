@@ -2,9 +2,9 @@ import styles from '../styles/Bio.module.scss'
 import Image from 'next/image'
 import profileImg from '../public/images/meredith-photo.jpg'
 import Link from 'next/link'
-import githubBlue from '../public/icons/github-contact.svg'
-import linkedin from '../public/icons/linkedin-contact.svg'
-import email from '../public/icons/email-contact.svg'
+import githubBlue from '../public/icons/github-contact.png'
+import linkedin from '../public/icons/linkedin-contact.png'
+import email from '../public/icons/email-contact.png'
 
 const Bio = () => {
 
@@ -20,7 +20,7 @@ const Bio = () => {
                         alt="Meredith has curly, shoulder-length hair and bangs framing their face as they look at the camera smiling"
                         />
                     </div>
-                    <div className={styles.bio_links_tablet}>
+                    {/* <div className={styles.bio_links_tablet}>
                         <Link href="https://www.linkedin.com/in/meredithjonatan/" className={styles.bio_linkedin}>
                             <Image
                                 priority
@@ -45,7 +45,7 @@ const Bio = () => {
                                 alt="Send me an email"
                             />
                         </a>
-                    </div>
+                    </div> */}
                 </div>
                 <div className={styles.bio_content}>
                     <p className={styles.bio_paragraph}>As a recent graduate from a web development boot camp, I'm thrilled to embark on my new journey as a web developer. After spending a decade in retail and office management, I rediscovered my love for coding in 2020, a hobby I first discovered when tinkering with HTML and CSS on Neopets as a kid.</p>
@@ -54,7 +54,7 @@ const Bio = () => {
 
                     <p className={styles.bio_paragraph}>When I'm not coding, I love exploring the great outdoors, training in Muay Thai, and experimenting with new recipes in the kitchen. I believe that a healthy work-life balance is essential to success and happiness, and I always strive to maintain that balance.</p>
                 </div>
-                <div className={styles.bio_links_mobile}>
+                {/* <div className={styles.bio_links_mobile}>
                         <Link href="https://www.linkedin.com/in/meredithjonatan/" className={styles.bio_linkedin}>
                             <Image
                                 priority
@@ -79,7 +79,7 @@ const Bio = () => {
                                 alt="Send me an email"
                             />
                         </a>
-                </div>
+                </div> */}
             </div>
         </div>
     )
