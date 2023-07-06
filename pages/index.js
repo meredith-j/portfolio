@@ -4,6 +4,7 @@ import Bio from '@/components/Bio'
 import Stack from '@/components/Stack'
 import Projects from '@/components/Projects'
 import { getSortedProjectsData } from '@/lib/projects'
+import Footer from '@/components/Footer'
 
 export async function getStaticProps() {
   const allProjectsData = getSortedProjectsData();
@@ -31,6 +32,7 @@ export default function Home({ allProjectsData }) {
           <Bio />
           <Projects allProjectsData={allProjectsData} />
           <Stack />
+          <Footer />
           </div>
         </div>
     </>

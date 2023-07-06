@@ -33,7 +33,7 @@
     &_one {
         color: lightgray;
         padding: 1rem;
-        border: 0.075rem solid #DC0BAE;
+        border: 0.075rem solid $accent;
         border-radius: 1rem;
 
         @include tablet {
