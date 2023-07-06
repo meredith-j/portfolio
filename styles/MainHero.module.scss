@@ -12,9 +12,9 @@ padding: 2.5rem 2rem;
 
   &_gradient {
     // gradient text colour
-    background: -webkit-linear-gradient(#833ab4, #fd1d1d, #fcb045);
+    background: -webkit-linear-gradient($gradient1, $gradient2, $gradient3);
     // shadow behind text
-    text-shadow: 1rem 1rem 0 transparent, 0 0 0.5em darkblue;
+    text-shadow: 4rem 4rem 0 transparent, 0 0 0.5em $shadow;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     // the commented out code is a navy outline (to match the shaddow)

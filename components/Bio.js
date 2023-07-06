@@ -52,7 +52,7 @@ const Bio = () => {
 
                     <p className={styles.bio_paragraph}>For me, coding is a beautiful mix of logic and creative problem-solving, and I find great satisfaction in building tangible products that people can use. I'm excited to make a difference in the digital world and contribute to the development of beautiful and functional websites.</p>
 
-                    <p className={styles.bio_paragraph}>When I'm not coding, I love exploring the great outdoors, practicing yoga, and experimenting with new recipes in the kitchen. I believe that a healthy work-life balance is essential to success and happiness, and I always strive to maintain that balance.</p>
+                    <p className={styles.bio_paragraph}>When I'm not coding, I love exploring the great outdoors, training in Muay Thai, and experimenting with new recipes in the kitchen. I believe that a healthy work-life balance is essential to success and happiness, and I always strive to maintain that balance.</p>
                 </div>
                 <div className={styles.bio_links_mobile}>
                         <Link href="https://www.linkedin.com/in/meredithjonatan/" className={styles.bio_linkedin}>
