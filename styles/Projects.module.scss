@@ -6,13 +6,13 @@
 .projects {
     padding: 1rem 2rem;
 
-    @include tablet {
-        padding: 1rem 2rem;
-    }
+        @include tablet {
+            padding: 1rem 2rem;
+        }
 
-    @include desktop {
-        padding: 1rem 13rem;
-    }
+        @include desktop {
+            padding: 1rem 13rem;
+        }
 
     &_header {
         color: $main-text;
@@ -46,6 +46,8 @@
         font-size: 1.5rem;
         text-align: center;
         padding: 0 0 1rem 0;
+        min-height: 3.5rem;
+        max-height: 3.5rem;
     }    
     
     &_image {
@@ -59,35 +61,38 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
         padding: 0 0 1rem 0;
+        gap: 1rem;
     }
 
-    &_githublink {
+    &_link {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 0.5rem;
-    }
+        text-decoration: none;
+        color: $main-text;
 
-    &_github {
-        width: 3rem;
-        height: auto;
-    }
+        &_hidden {
+            display: none;
+        }
 
-    &_githubtext {
-        width: 4rem;
-        color: white;
+        &_image {
+            width: 3rem;
+            height: auto;
+        }
+
+        &_text {
+            color: white;
+            max-width: 2rem;
+        }
     }
 
     &_live {
         width: 4rem;
         text-align: center;
         color: $main-text;
-    }
-
-    &_link {
-        text-decoration: none;
+        display: flex;
     }
 
     &_description {
