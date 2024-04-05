@@ -17,6 +17,7 @@ import githubLogo from '../public/icons/github.svg'
 import jiraLogo from '../public/icons/jira.svg'
 import knexLogo from '../public/icons/knex.svg'
 import vscodeLogo from '../public/icons/vscode.svg'
+import wixLogo from '../public/icons/Wix.svg'
 
 const Stack = () => {
     return (
@@ -126,6 +127,12 @@ const Stack = () => {
                 src={vercelLogo}
                 className={styles.stack_logo}
                 alt="Vercel logo"
+                />
+            <Image
+                priority
+                src={wixLogo}
+                className={styles.stack_logo}
+                alt="Wix logo"
                 />
         </div>
     </div>
